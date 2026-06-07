@@ -1,0 +1,10 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "roarflare",
+  "main": "src/index.js",
+  "compatibility_date": "2026-06-06",
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 0.1
+  }
+}
